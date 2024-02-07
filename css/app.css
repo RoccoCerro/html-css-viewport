@@ -1,0 +1,31 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+}
+
+a{
+    color: currentColor;
+    text-decoration: none;
+}
+
+/* LAYOUT */
+.app{
+    display: flex;
+}
+
+.section-1 ul,.bottombar ul{
+    list-style: none;
+}
+
+/* UTILITY */
+.flex{
+    display: flex;
+}
+
+
