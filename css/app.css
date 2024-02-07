@@ -15,11 +15,17 @@ a{
 }
 
 /* LAYOUT */
-.app{
-    display: flex;
+body{
+    color: white;
 }
 
-.section-1 ul,.bottombar ul{
+.app{
+    display: flex;
+    background-color: #141923e8;
+    height: calc(100vh - 70px);
+}
+
+.section-1 ul, .bottombar ul{
     list-style: none;
 }
 
@@ -28,4 +34,28 @@ a{
     display: flex;
 }
 
+/* STYLE */
+.app header{
+    background-color: black;
+    padding: 20px;
+    min-width: 220px;
+}
 
+main{
+    overflow: auto;
+}
+
+.subscription{
+    background-color: #0e121bde;
+    min-height: 8vh;
+}
+
+.bottombar{
+    background-color: #282828;
+    line-height: 70px;
+}
+
+/* DEBUG */
+.debug{
+    color: aquamarine;
+}
