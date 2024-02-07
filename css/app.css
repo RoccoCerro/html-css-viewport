@@ -71,6 +71,9 @@ main{
 .bottombar{
     background-color: #282828;
     line-height: 70px;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .nav__header{
@@ -95,5 +98,17 @@ main{
 
 .list-card h3{
     padding-bottom: 10px;
+}
+
+.section-2 > h2, .section-2 p{
+    padding-bottom: 10px;
+}
+
+.section-2 ul{
+    padding-left: 20px;
+}
+
+.bottombar ul{
+    gap: 10px;
 }
 /* DEBUG */
